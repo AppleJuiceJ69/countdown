@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("gabriel-alenius-USXfF_ONUGo-unsplash.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: bold;
+        display: flex;
+        font-size: 3rem;
+        justify-content: center;
+        height: 20rem;
+        align-items: center;
+}
+
+#main-content{
+    display: flex;  
+    justify-content: space-around;
+    
+}
+.time{
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.bottom-text{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
